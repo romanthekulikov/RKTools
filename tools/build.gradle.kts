@@ -7,7 +7,7 @@ plugins {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "org.gradle.sample"
+            groupId = "com.roman_kulikov.rktools"
             artifactId = "rk_tools"
             version = "0.1.3"
 
