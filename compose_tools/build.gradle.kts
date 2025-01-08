@@ -41,7 +41,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.roman_kulikov.rktools"
             artifactId = "rk_compose_tools"
-            version = "0.2.0"
+            version = "0.2.2"
         }
     }
 }
