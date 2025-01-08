@@ -6,10 +6,10 @@ plugins {
 
 publishing {
     publications {
-        create<MavenPublication>("release") {
+        create<MavenPublication>("maven") {
             groupId = "org.gradle.sample"
-            artifactId = "library"
-            version = "1.1"
+            artifactId = "rk_tools"
+            version = "0.1.3"
 
             from(components["java"])
         }
