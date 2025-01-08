@@ -40,7 +40,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = "com.roman_kulikov.rktools"
-            artifactId = "rk_tools"
+            artifactId = "rk_compose_tools"
             version = "0.2.0"
         }
     }
