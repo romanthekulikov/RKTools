@@ -2,11 +2,10 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("maven-publish")
 }
 
 android {
-    namespace = "com.roman_kulikov.compose_tools"
+    namespace = "com.roman_kulikov.ui"
     compileSdk = 34
 
     defaultConfig {
@@ -22,11 +21,6 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
-
-    buildFeatures {
-        compose = true
-    }
-
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -34,15 +28,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-}
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "com.roman_kulikov.rktools"
-            artifactId = "rk_compose_tools"
-            version = "0.2.2"
-        }
+    buildFeatures {
+        compose = true
     }
 }
 

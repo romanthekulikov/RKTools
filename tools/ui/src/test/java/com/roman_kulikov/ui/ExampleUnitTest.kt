@@ -1,4 +1,4 @@
-package com.roman_kulikov.compose_tools
+package com.roman_kulikov.ui
 
 import org.junit.Test
 

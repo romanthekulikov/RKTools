@@ -1,4 +1,4 @@
-package com.roman_kulikov.compose_tools.extentions
+package com.roman_kulikov.ui.extentions
 
 import androidx.annotation.MainThread
 import androidx.compose.animation.AnimatedContentScope
