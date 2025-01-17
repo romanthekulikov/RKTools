@@ -14,5 +14,16 @@ kotlin {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
     group = "com.roman_kulikov.rktools.tools"
-    version = "0.2.6"
+    version = "0.2.7"
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.roman_kulikov.rktools.tools"
+            artifactId = "tools"
+            version = "0.2.7"
+            from(components["java"])
+        }
+    }
 }
