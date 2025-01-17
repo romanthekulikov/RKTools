@@ -1,4 +1,4 @@
-package com.roman_kulikov.ui.extentions
+package com.roman_kulikov.compose_tools.extentions
 
 import android.content.Context
 import androidx.compose.runtime.Composable

@@ -1,8 +1,8 @@
-package com.roman_kulikov.ui.base
+package com.roman_kulikov.compose_tools.base
 
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
-import com.roman_kulikov.ui.base.EdgeToEdgeProp
+import com.roman_kulikov.compose_tools.base.EdgeToEdgeProp
 
 
 /**

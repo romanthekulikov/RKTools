@@ -1,4 +1,4 @@
-package com.roman_kulikov.ui.base
+package com.roman_kulikov.compose_tools.base
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineScope

@@ -15,7 +15,7 @@ subprojects {
             create<MavenPublication>(project.name) {
                 groupId = project.group.toString()
                 artifactId = project.name
-                version = "0.2.5"
+                version = project.version.toString()
             }
         }
     }

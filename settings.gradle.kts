@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "RKTools"
 include(":app")
 include(":tools")
-include(":tools:ui")
+include(":compose_tools")

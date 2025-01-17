@@ -2,11 +2,14 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("maven-publish")
 }
 
 android {
-    namespace = "com.roman_kulikov.ui"
-    compileSdk = 34
+    namespace = "com.roman_kulikov.compose_tools"
+    compileSdk = 35
+    group = "com.roman_kulikov.rktools.ui_tools"
+    version = "0.2.6"
 
     defaultConfig {
         minSdk = 28
@@ -28,7 +31,6 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-
     buildFeatures {
         compose = true
     }

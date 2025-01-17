@@ -13,4 +13,6 @@ kotlin {
     compilerOptions {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
+    group = "com.roman_kulikov.rktools.tools"
+    version = "0.2.6"
 }
