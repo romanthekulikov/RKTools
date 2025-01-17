@@ -9,17 +9,19 @@ java {
     targetCompatibility = JavaVersion.VERSION_17
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "com.roman_kulikov.rktools"
-            artifactId = "rk_tools"
-            version = "0.2.3"
-
-            from(components["java"])
+subprojects {
+    apply(plugin = "maven-publish")
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                groupId = "com.roman_kulikov.rktools"
+                artifactId = "rk_tools"
+                version = "0.2.4"
+            }
         }
     }
 }
+
 
 kotlin {
     compilerOptions {
