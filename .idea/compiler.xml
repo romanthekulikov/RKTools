@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="RKTools.compose_tools" target="21" />
       <module name="RKTools.tools.ui" target="21" />
     </bytecodeTargetLevel>
   </component>
